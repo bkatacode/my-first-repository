@@ -1,0 +1,36 @@
+form {
+  margin: 50px;
+  font-family: 'Krona One', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+button {
+  width: 100px;
+  height: 70px;
+  font-family: 'Krona One', sans-serif;
+  font-size: 15px;
+  background: lime;
+  border: 2px solid lime;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30%;
+}
+
+#nevInputMezo {
+ height: 50px;
+ width: 200px;
+ border-color: lime;
+ border-style: solid;
+ border-radius: 5%;
+}
+
+#jelszoInputMezo {
+  height: 50px;
+  width: 200px;
+  border-color: lime;
+  border-style: solid;
+  border-radius: 5%;
+}
+

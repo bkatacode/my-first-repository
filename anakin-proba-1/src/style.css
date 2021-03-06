@@ -1,0 +1,61 @@
+header {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  position: absolute;
+  border-top: 5px solid black;
+}
+
+.name {
+  position: absolute;
+  line-height: 0;
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 290px;
+  margin-top: 280px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.Anakin {
+  font-size: 80px;
+}
+
+
+div {
+  position: relative;
+}  
+  
+.quote {  
+  position: absolute;
+  align-items: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: white;
+  background: grey;
+  height: 150px;
+  margin: 500px 400px 70px 300px;  
+  text-align: center;
+  line-height: 1;
+  padding-top: 30px;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 150px;  
+  padding-top: 30px;
+  top: -40px;
+  left: 0;
+  position: absolute;
+}
+
+div#back {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-family: 'Jomhuria', cursive;
+  font-size: 30px;
+}

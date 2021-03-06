@@ -1,0 +1,11 @@
+p{
+  color: darkblue;
+  background: darkturquoise;
+  font-size: 30px;
+  font-family: 'Lobster Two', cursive;
+  border: solid 5px lightgreen;
+  margin: 15px 800px 15px 15px;
+  padding-left: 30px;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}

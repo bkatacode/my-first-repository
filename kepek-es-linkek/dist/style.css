@@ -1,0 +1,24 @@
+.lepke {
+  width: 150px;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  font-family: "Comic Sans MS";
+}
+
+div {
+  display: flex;
+}
+
+section {
+  width: 300px;
+  text-align: center;
+}
+
+a {
+  display: block;
+}

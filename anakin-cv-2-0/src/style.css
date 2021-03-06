@@ -1,0 +1,174 @@
+.menu {
+  height: 90px;
+  width: 800px;
+  margin-left: 300px;
+  background: grey;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px; 
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: bold;
+  padding-left: 40px;
+  top: 0;  
+  position: sticky;
+  z-index: 1;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: lime;
+}
+
+main {
+  width: 800px;
+  margin-left: 300px;  
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.right {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.name {
+  height: 400px;
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.Anakin {
+  font-size: 65px;
+  margin-left: 40px;
+  position: absolute;
+  bottom: 0px;
+}
+
+h1 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 160px;
+  margin-left: 40px;
+}
+
+.szoveg1 {
+  line-height: 1.5;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.quote {
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color: white;
+  background: blue;  
+  line-height: 1;
+  margin-left: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  font-size: 150px;  
+  padding-top: 30px;
+  top: -30px;
+  left: 0;
+}
+
+#egy {
+  margin-bottom: 200px;
+}
+
+#ketto {
+  margin-bottom: 270px;
+}
+
+#harom {
+  margin-bottom: 0;
+}
+
+p.uppercase {
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-left: 0;
+}
+
+p.tiny {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+p.italic {
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+ul {
+  font-size: 15px;
+}
+
+#Ach {
+  margin-top: 100px;
+}
+
+#Exp {
+  margin-top: 60px;
+}
+
+#top-link {
+  display: grid;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  border: none;
+  background: transparent;  
+}
+
+#top-link img{
+	width: 50px;
+	height: 50px;
+}

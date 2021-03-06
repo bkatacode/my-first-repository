@@ -1,0 +1,36 @@
+main {
+  width: 350px;
+  height: 300px;
+  color: white;
+  border: solid blue 10px; 
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive; 
+  margin: 0 400px;
+  }
+
+.piros{
+  background: red;
+  padding: 20px;
+  margin: 0;
+}
+
+.sarga {
+  background: yellow;
+  padding: 20px;
+  margin: 0;
+}
+
+.turkiz {
+  background: turquoise;
+  padding: 20px;
+  margin: 0;
+}
+
+.kek {
+  background: blue;
+  padding: 20px;
+  margin: 0;
+}
+
